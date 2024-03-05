@@ -62,15 +62,11 @@ form button{
 }
 
 .login a{
-  color: #414ce9;
+  margin: 1.5rem 0;
+  color: #000;
   cursor: pointer;
 }
 
-.login a:hover {
-  color: #1923ad;
-}
-
-.login span {
-  margin: 1.5rem 0;
-  color: #121212;
+span {
+  color: rgb(5, 35, 170);
 }
