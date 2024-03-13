@@ -1,63 +1,63 @@
-# Sistema Chamados
+# ClientCareHub
 
-## Descrição
+## Description
 
-Este é um projeto em React chamado "Sistema Chamados" desenvolvido para gerenciar chamados de forma eficiente. O sistema utiliza o banco de dados Firebase para armazenar e recuperar os dados dos chamados. Além disso, foram utilizadas diversas ferramentas e bibliotecas, incluindo React Hooks, React Toastify e React Icons.
+This is a React project called "ClientCareHub" developed to efficiently manage tickets, focusing on the care and attention dedicated to clients. The system utilizes the Firebase database to store and retrieve ticket data. Additionally, various tools and libraries were used, including React Hooks, React Toastify, and React Icons.
 
-## Ferramentas Utilizadas 🛠️
+## Tools Used 🛠️
 
-- **React:** Utilizado como framework principal para o desenvolvimento da aplicação.
-- **Firebase:** Banco de dados utilizado para armazenar e gerenciar os dados dos chamados.
-- **React Hooks:** Utilizado para o gerenciamento de estado e ciclo de vida dos componentes React de forma mais simples e eficiente.
-- **React Toastify:** Biblioteca utilizada para exibir notificações de forma elegante e responsiva.
-- **React Icons:** Utilizado para adicionar ícones facilmente aos componentes React.
-- **Context API:** Utilizada para o gerenciamento de estado global na aplicação, permitindo o compartilhamento de dados entre componentes sem a necessidade de props.
+- **React:** Used as the main framework for application development.
+- **Firebase:** Database used to store and manage ticket data.
+- **React Hooks:** Used for state management and component lifecycle in React components in a simpler and more efficient way.
+- **React Toastify:** Library used to display notifications elegantly and responsively.
+- **React Icons:** Used to easily add icons to React components.
+- **Context API:** Used for global state management in the application, allowing data sharing between components without the need for props.
 
-## Funcionalidades 🚀
+## Features 🚀
 
-- Cadastro, edição e exclusão de chamados.
-- Visualização detalhada de cada chamado.
-- Notificações elegantes para ações importantes.
-- Interface responsiva para uma experiência de usuário consistente em diferentes dispositivos.
+- Creation, editing, and deletion of tickets.
+- Detailed view of each ticket.
+- Elegant notifications for important actions.
+- Responsive interface for a consistent user experience across different devices.
 
-## Como Executar o Projeto 🚀
+## How to Run the Project 🚀
 
-Siga os passos abaixo para instalar e executar o projeto em sua máquina local:
+Follow the steps below to install and run the project on your local machine:
 
-1. Clone este repositório utilizando o comando:
+1. Clone this repository using the command:
    ```
-   git clone https://github.com/seu-usuario/sistema-chamados.git
-   ```
-
-2. Navegue até o diretório do projeto:
-   ```
-   cd sistema-chamados
+   git clone https://github.com/your-username/clientcarehub.git
    ```
 
-3. Instale as dependências utilizando o npm ou yarn:
+2. Navigate to the project directory:
+   ```
+   cd clientcarehub
+   ```
+
+3. Install dependencies using npm or yarn:
    ```
    npm install
    ```
-   ou
+   or
    ```
    yarn install
    ```
 
-4. Após a instalação das dependências, inicie o servidor de desenvolvimento:
+4. After installing dependencies, start the development server:
    ```
    npm start
    ```
-   ou
+   or
    ```
    yarn start
    ```
 
-5. Abra o navegador e acesse [http://localhost:3000](http://localhost:3000) para visualizar a aplicação.
+5. Open your browser and go to [http://localhost:3000](http://localhost:3000) to view the application.
 
-## Contribuição 🤝
+## Contribution 🤝
 
-Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou abrir issues relatando problemas ou sugestões de melhorias.
+Contributions are welcome! Feel free to send pull requests or open issues reporting problems or suggesting improvements.
 
-## Autor ✍️
+## Author ✍️
 
-Este projeto foi desenvolvido por Lucas Macena e está disponível no GitHub em https://github.com/LucasMacena09/sistemaChamados.
+This project was developed by Lucas Macena and is available on GitHub at https://github.com/LucasMacena09/clientcarehub.
