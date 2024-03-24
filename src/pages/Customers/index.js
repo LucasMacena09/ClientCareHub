@@ -4,7 +4,7 @@ import Title from '../../components/Title'
 
 import { FiUser } from 'react-icons/fi'
 
-import { db } from '../../services/firebaseConnection'
+import { db } from '../../services/firebaseconnection'
 import { addDoc, collection } from 'firebase/firestore'
 
 import { toast } from 'react-toastify'
@@ -20,7 +20,7 @@ export default function Customers(){
 
         if(nome !== '' && cnpj !== '' && endereco !== ''){
             await addDoc(collection(db, "customers"), {
-                nomeFictico: nome,
+                nomeFantasia: nome,
                 cnpj: cnpj,
                 endereco: endereco
             })

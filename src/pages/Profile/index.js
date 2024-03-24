@@ -6,7 +6,7 @@ import { FiSettings, FiUpload } from 'react-icons/fi'
 import avatar from '../../assets/avatar.png'
 import {AuthContext} from '../../contexts/auth'
 
-import { db, storage } from '../../services/firebaseConnection'
+import { db, storage } from '../../services/firebaseconnection'
 import { doc, updateDoc } from 'firebase/firestore'
 import { ref, uploadBytes, getDownloadURL } from 'firebase/storage'
 
